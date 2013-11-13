@@ -1,0 +1,75 @@
+Imports Microsoft.VisualBasic
+
+Public Class clsEvent
+    Private Structure EventProps
+        Public ID As Integer
+        Public Title As String
+        Public Description As String
+        Public EventDate As Date
+        Public StartTime As Date
+        Public EndTime As Date
+    End Structure
+
+    Private mudsProps As EventProps
+
+    Public Sub New(ByVal pID As Integer, ByVal pTitle As String, ByVal pDescription As String, ByVal pEventDate As Date, ByVal pStartTime As Date, ByVal pEndTime As Date)
+        mudsProps.ID = pID
+        mudsProps.Title = pTitle
+        mudsProps.Description = pDescription
+        mudsProps.EventDate = pEventDate
+        mudsProps.StartTime = pStartTime
+        mudsProps.EndTime = pEndTime
+    End Sub
+
+#Region "Properties"
+    Public ReadOnly Property ID() As Integer
+        Get
+            Return mudsProps.ID
+        End Get
+    End Property
+
+    Public ReadOnly Property Title() As String
+        Get
+            Return mudsProps.Title
+        End Get
+    End Property
+
+    Public ReadOnly Property Description() As String
+        Get
+            Return mudsProps.Description
+        End Get
+    End Property
+
+    Public ReadOnly Property EventDate() As Date
+        Get
+            Return mudsProps.EventDate
+        End Get
+    End Property
+
+    Public ReadOnly Property StartTime() As Date
+        Get
+            Return mudsProps.StartTime
+        End Get
+    End Property
+
+    Public ReadOnly Property StartTimeStr() As String
+        Get
+            Return Format(mudsProps.StartTime, "h:mm tt")
+        End Get
+    End Property
+
+    Public ReadOnly Property EndTime() As Date
+        Get
+            Return mudsProps.EndTime
+        End Get
+    End Property
+
+    Public ReadOnly Property EndTimeStr() As String
+        Get
+            Return Format(mudsProps.EndTime, "h:mm tt")
+        End Get
+    End Property
+#End Region
+
+
+End Class

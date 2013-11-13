@@ -1,0 +1,79 @@
+﻿<%@ Master Language="VB" CodeFile="MasterPage.master.vb" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Untitled Page</title>
+        <link rel="stylesheet" type="text/css" href="basic.css"/>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            color: #FF9900;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <asp:ScriptManager ID="ScriptManager1" runat="server">
+    </asp:ScriptManager>
+<div class="left">
+
+    <asp:Image ID="Image1" runat="server" ImageUrl="~/images/banner.gif" />
+  
+    <asp:ContentPlaceHolder ID="LeftSide" runat="server">
+    </asp:ContentPlaceHolder>
+    <br />
+    <hr />
+    <center>
+    <h3>
+    <strong>
+        <span class="style1">User Information</span><br />
+    </strong>
+        <asp:LoginName ID="LoginName1" runat="server" /><br />
+        <asp:Label ID="UserName" runat="server"></asp:Label><br />
+        <span class="style1">Your current status:</span><br />
+        <asp:LoginView ID="LoginView1" runat="server">
+            <LoggedInTemplate>
+                Logged In
+            </LoggedInTemplate>
+            <AnonymousTemplate>
+                Not Logged In
+            </AnonymousTemplate>
+        </asp:LoginView>
+        <br />
+        <asp:LoginStatus ID="LoginStatus1" runat="server" LogoutAction="Redirect" 
+            LogoutPageUrl="~/Default.aspx" />
+        <br />
+        <asp:HyperLink ID="HelpHyperLink" runat="server" NavigateUrl="~/Help.aspx" 
+            Target="_blank" ImageUrl="~/images/Help.png">Help!</asp:HyperLink>
+    </h3>
+ </center>
+</div>
+
+<div class="right">
+
+    <asp:ContentPlaceHolder ID="Header" runat="server">
+    </asp:ContentPlaceHolder>
+ 
+<div class="content">
+<div>
+    <asp:ContentPlaceHolder ID="Content" runat="server">
+    </asp:ContentPlaceHolder>
+</div>
+
+<div id="footer" style="margin-top:100px; width:500px">
+&copy; 2008 <a href="#"><strong>www.OSS.com</strong></a>
+   <br/>  Designed by <a href="http://www.SEVEN-Software.com/">SEVEN Software</a>, For Via Magna - Gothenburg - Sweden
+</div>
+
+
+</div>
+ 
+</div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="clsCalender">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="clsCalender.CalenderProps">
+        <TypeIdentifier>
+          <NewMemberFileName>App_Code\clsCalenders.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAJAAAAAAgAAAAAAAAAQAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Code\clsCalenders.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="clsControlText">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="clsControlText.StyleProps">
+        <TypeIdentifier>
+          <NewMemberFileName>App_Code\clsControlText.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAJAEAACAgAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>App_Code\clsControlText.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="clsEventSortedList">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAIAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Code\clsEventSortedList.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="clsControlTextList">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>App_Code\clsControlTextList.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="clsRecurEventList">
+    <Position X="5.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAE=</HashCode>
+      <FileName>App_Code\clsRecurEventList.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="clsRecurType">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="clsRecurType.RecurTypeProps">
+        <TypeIdentifier>
+          <NewMemberFileName>App_Code\clsRecurTypes.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAgIAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Code\clsRecurTypes.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="clsStyle">
+    <Position X="4" Y="2.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="clsStyle.StyleProps">
+        <TypeIdentifier>
+          <NewMemberFileName>App_Code\clsStyle.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAJAEAAAAgAAAAAAAAAEAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>App_Code\clsStyle.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="clsStyleList">
+    <Position X="5.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>App_Code\clsStyleList.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CurrentName">
+    <Position X="5.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>App_Code\CurrentName.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="clsCalenders">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>App_Code\clsCalenders.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="clsRecurEvent">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="clsRecurEvent.RecurTypes" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>App_Code\clsRecurEvent.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Struct Name="clsRecurEvent.RecurProps" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>App_Code\clsRecurEvent.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAJAAAAAghEAAAEAAAAAlIAEgAEAEABAAAGAAAAA=</HashCode>
+      <FileName>App_Code\clsRecurEvent.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="clsRecurTypes">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Code\clsRecurTypes.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>
